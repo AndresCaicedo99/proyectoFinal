@@ -121,7 +121,6 @@ header .cart span{
   transform: all 300ms ease-in-out;
   margin: 3rem 0 0 2rem;
 }
-.carrito_close box-icon
 
 /*-------MEDIA------*/
 @media only screen and (max-width: 600px){
