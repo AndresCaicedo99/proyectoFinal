@@ -2,6 +2,16 @@ import React from 'react'
 import logo from '../../images/logopequeño.jpg'
 
 export const Header = () => {
+    const value = useContext(DataContext);
+    const [carrito] = value.carrito;
+    const [menu, setMenu] = value.menu;
+  
+  
+    const toogleMenu = () =>{
+      setMenu(!menu)
+    }
+   
+  
     return (
         <header>
             <a href="#">

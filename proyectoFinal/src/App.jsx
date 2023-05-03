@@ -7,6 +7,7 @@ import { Carrito } from './componentes/Carrito';
 import { Paginas } from './componentes/paginas';
 
 function App() {
+
   return (
     <section className='App'>
       <Router />
@@ -18,4 +19,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
